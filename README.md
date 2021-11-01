@@ -14,6 +14,5 @@ above publication.
 
 You can contact: 
 
-- Ahmad Ridwan Tresna Nugraha, <a
-href="mailto:ahmad.ridwan.tresna.nugraha@brin.go.id">ahmad [dot]
-ridwan [dot] tresna [dot] nugraha [at] brin [dot] go [dot] id</a>
+- <a href="mailto:ahmad.ridwan.tresna.nugraha@brin.go.id">Ahmad Ridwan
+Tresna Nugraha &#65131; BRIN</a>
