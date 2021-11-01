@@ -1,0 +1,5 @@
+&BANDS
+ outdir   = './work/',
+ prefix   = 'GeTe-mono',
+ filband  = 'GeTe-mono.bands',
+/

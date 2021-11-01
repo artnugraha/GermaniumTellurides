@@ -1,0 +1,43 @@
+&CONTROL
+     calculation   = 'bands',
+     restart_mode  = 'from_scratch',
+     prefix        = 'GeTe-c',
+     pseudo_dir    = '../../../pseudo/',
+     outdir        = './work/',
+/
+
+&SYSTEM                     
+     ibrav         = 0,                   
+     nat           = 2,                     
+     ntyp          = 2,
+     nbnd          = 30,
+     ecutwfc       = 50.0,
+     ecutrho       = 600.0,
+/
+
+&ELECTRONS
+     mixing_beta   = 0.7,
+     conv_thr      = 1d-9,
+/
+
+ATOMIC_SPECIES
+ Ge  72.63 Ge_ONCV_PBE-1.2.upf
+ Te 127.60 Te_ONCV_PBE-1.2.upf
+
+CELL_PARAMETERS (angstrom)
+   4.248704910   0.000000000   0.000000000
+   2.124352455   3.679486385   0.000000000
+   2.124352455   1.226495462   3.469053033
+
+ATOMIC_POSITIONS (crystal)
+Ge            0.0000000000        0.0000000000        0.0000000000
+Te            0.5000000000        0.5000000000        0.5000000000
+
+K_POINTS {crystal_b}
+6
+   0.250000000   0.500000000   0.750000000 50 !W
+   0.000000000   0.000000000   0.500000000 30 !L
+   0.000000000   0.375000000   0.625000000 20 !U
+   0.000000000   0.500000000   0.500000000 50 !X
+   0.000000000   0.000000000   0.000000000 50 !G
+   0.375000000   0.375000000   0.750000000 1  !K

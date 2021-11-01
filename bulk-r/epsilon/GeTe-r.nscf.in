@@ -1,0 +1,40 @@
+&CONTROL
+     calculation   = 'nscf',
+     restart_mode  = 'from_scratch',
+     prefix        = 'GeTe-r',
+     pseudo_dir    = '../../../pseudo/',
+     outdir        = './work/',
+     verbosity     = 'high',
+/
+
+&SYSTEM                     
+     ibrav         = 0,                   
+     nat           = 2,                     
+     ntyp          = 2,
+     nbnd          = 30,
+     ecutwfc       = 50.0,
+     ecutrho       = 600.0,
+     nosym         = .TRUE.
+     noinv         = .TRUE.
+/
+
+&ELECTRONS
+     mixing_beta   = 0.7,
+     conv_thr      = 1d-9,
+/
+
+ATOMIC_SPECIES
+ Ge  72.63 Ge_ONCV_PBE-1.2.upf
+ Te 127.60 Te_ONCV_PBE-1.2.upf
+
+CELL_PARAMETERS (angstrom)
+   4.370171842  -0.001829322  -0.001258157
+   2.327399330   3.698941433  -0.001574576
+   2.327410603   1.285067361   3.468776450
+
+ATOMIC_POSITIONS (crystal)
+Ge            0.0046092505        0.0046502027        0.0046584981
+Te            0.4743907485        0.4743497963        0.4743415009
+
+K_POINTS automatic
+32 32 32 1 1 1 

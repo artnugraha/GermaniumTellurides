@@ -1,0 +1,14 @@
+&INPUTPP
+     calculation   = 'eps',
+     prefix        = 'GeTe-r',
+     outdir        = './work/',
+/
+
+&ENERGY_GRID
+     smeartype     = 'lorentz'
+     intersmear    = 0.10
+     intrasmear    = 0.00
+     wmin          = 0.00
+     wmax          = 15.0
+     nw            = 1000
+/

@@ -1,0 +1,67 @@
+
+     Program epsilon v.6.7MaX starts on 20Feb2021 at  6:12:14 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    20 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      20
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./work/GeTe-r.save/
+     Message from routine read_pp_mesh:
+     mesh size missing, using the one in header
+     Message from routine read_pp_mesh:
+     mesh size missing, using the one in header
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         137      45     14                 4695      903     160
+     Max         138      46     15                 4698      907     163
+     Sum        2759     917    293                93943    18109    3233
+ 
+
+
+     Fermi energy [eV] is: 10.29213
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.000000
+
+     Performing jdos calculation...
+
+     Integration over JDOS gives:     0.134804970 instead of 1.0d0
+
+     Writing output on file...
+
+
+     jdos         :      9.09s CPU      9.16s WALL (       1 calls)
+ 
+ 
+     epsilon      :   1m22.00s CPU   1m43.72s WALL
+
+ 
+   This run was terminated on:   6:13:58  20Feb2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

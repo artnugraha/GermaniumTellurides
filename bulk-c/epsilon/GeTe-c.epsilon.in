@@ -1,0 +1,13 @@
+&INPUTPP
+     calculation   = 'eps',
+     prefix        = 'GeTe-c',
+     outdir        = './work/',
+/
+
+&ENERGY_GRID
+     smeartype     = 'gaussian'
+     intersmear    = 0.10
+     wmin          = 0.00
+     wmax          = 15.0
+     nw            = 1000
+/

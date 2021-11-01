@@ -1,0 +1,7 @@
+&DOS
+ outdir   = './work/',
+ prefix   = 'GeTe-mono',
+ fildos   = 'GeTe-mono.dos',
+ emin     = -5.00
+ emax     = 25.00
+/
